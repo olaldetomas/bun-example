@@ -5,6 +5,7 @@
   "scripts": {
     "start": "bun --watch src/server.ts NODE_ENV=local",
     "build-bun": "bun build ./src/server.ts --target=bun --outfile=server.js",
+    "build-node": "bun build ./src/server.ts --target=node --outfile=node-server.js",
     "hello": "bun run ./scripts/hello.ts",
     "file": "bun run ./scripts/create-file.ts",
     "test": "bun test"
